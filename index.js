@@ -6,7 +6,7 @@ console.log();
 $('.date').text(date.toDateString())
 $('.date').css('fontSize','2rem')
 day=date.getUTCDay()
-if(day%2 == 0){title='physics';$(title).text('physics')}
+if(day%2 == 0){title='physics';$('.title').text('physics')}
 else{title='math'
   $('.title').text(title);
 }
